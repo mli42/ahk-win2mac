@@ -1,13 +1,54 @@
-Use Mac keyboard with AutoHotkey under Windows
-==============================================
+# Use Mac keyboard with AutoHotkey under Windows
 
-This [AutoHotkey](https://www.autohotkey.com/) configuration file makes usual keyboard shortcuts work with an Apple keyboard on Windows. It has been testet with a german keyboard layout, but should work under different layouts as well.
+This [AHK](https://www.autohotkey.com/) configuration file makes MacOs keyboard shortcuts work on Windows. \
+It has been used on an _US International Layout_.
 
 If it's not working for applications running with admin permissions, it might be the problem that AHK is not, see [this question on StackOverflow](https://stackoverflow.com/a/8457852/723769).
 
-Installation
-------------
+## Installation
 
-- Install [AutoHotkey](https://www.autohotkey.com/) 
-- Run the `MacKeyboard.ahk` file
-- Put the `MacKeyboard.ahk` file or a shortcut to the file in your Autostart folder to run it automatically on startup.
+- Install [AutoHotkey](https://www.autohotkey.com/)
+- Run the `WholeSetup.ahk` file
+- Put the `WholeSetup.ahk` file or a shortcut to the file in your Autostart folder to run it automatically on startup.
+
+## What does it do?
+
+As you can see, this file only includes:
+- `Brightness.ahk`
+
+Maps <kbd>F1</kbd> to decrease brightness
+Maps <kbd>F2</kbd> to increase brightness
+- `MacKeyBoard.ahk`
+
+Capture entire screen with CMD/WIN + SHIFT + 3
+Capture portion of the screen with CMD/WIN + SHIFT + 4
+
+<kbd>F3</kbd> -> Open Task view (virtual desktop view)
+<kbd>F4</kbd> -> Toogle notification tab
+
+<kbd>F7</kbd> -> {Media_Prev}
+<kbd>F8</kbd> -> {Media_Play_Pause}
+<kbd>F9</kbd> -> {Media_Next}
+<kbd>F10</kbd> -> {Volume_Mute}
+<kbd>F11</kbd> -> {Volume_Down}
+<kbd>F12</kbd> -> {Volume_Up}
+
+RCtrl + ArrLeft -> Change to previous virtual screen
+RCtrl + ArrRight -> Change to next virtual screen
+Win + BackSpace -> Lock screen
+- `Accents.ahk`
+
+<kbd>Ctrl + E</kbd> -> `'`
+<kbd>Ctrl + U</kbd> -> `"`
+<kbd>Ctrl + I</kbd> -> `^`
+
+
+## Sources
+The `Class_Monitor.ahk` file comes from [this repo](https://github.com/jNizM/Class_Monitor.git) :clap:
+<!-- Where I found this repo: -->
+<!-- https://www.reddit.com/r/AutoHotkey/comments/cawl3s/change_screen_brightness_using_ahk/etdz013/ -->
+
+[Gamma controller](https://autohotkey.com/board/topic/58769-brightness-monitor/)
+(Not used)
+
+[Windows shortcuts](https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec)
