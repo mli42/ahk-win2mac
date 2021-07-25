@@ -14,32 +14,35 @@ If it's not working for applications running with admin permissions, it might be
 ## What does it do?
 
 As you can see, this file only includes:
+
 - `Brightness.ahk`
 
-Maps <kbd>F1</kbd> to decrease brightness
+Maps <kbd>F1</kbd> to decrease brightness \
 Maps <kbd>F2</kbd> to increase brightness
+
 - `MacKeyBoard.ahk`
 
-Capture entire screen with CMD/WIN + SHIFT + 3
+Capture entire screen with CMD/WIN + SHIFT + 3 \
 Capture portion of the screen with CMD/WIN + SHIFT + 4
 
-<kbd>F3</kbd> -> Open Task view (virtual desktop view)
+<kbd>F3</kbd> -> Open Task view (virtual desktop view) \
 <kbd>F4</kbd> -> Toogle notification tab
 
-<kbd>F7</kbd> -> {Media_Prev}
-<kbd>F8</kbd> -> {Media_Play_Pause}
-<kbd>F9</kbd> -> {Media_Next}
-<kbd>F10</kbd> -> {Volume_Mute}
-<kbd>F11</kbd> -> {Volume_Down}
-<kbd>F12</kbd> -> {Volume_Up}
+<kbd>F7</kbd> -> Media Prev \
+<kbd>F8</kbd> -> Media Play/Pause \
+<kbd>F9</kbd> -> Media Next \
+<kbd>F10</kbd> -> Volume Mute \
+<kbd>F11</kbd> -> Volume Down \
+<kbd>F12</kbd> -> Volume Up
 
-RCtrl + ArrLeft -> Change to previous virtual screen
-RCtrl + ArrRight -> Change to next virtual screen
-Win + BackSpace -> Lock screen
+<kbd>RCtrl + ArrLeft</kbd> -> Change to previous virtual screen \
+<kbd>RCtrl + ArrRight</kbd> -> Change to next virtual screen \
+<kbd>Win + BackSpace</kbd> -> Lock screen
+
 - `Accents.ahk`
 
-<kbd>Ctrl + E</kbd> -> `'`
-<kbd>Ctrl + U</kbd> -> `"`
+<kbd>Ctrl + E</kbd> -> `'` \
+<kbd>Ctrl + U</kbd> -> `"` \
 <kbd>Ctrl + I</kbd> -> `^`
 
 
