@@ -5,6 +5,11 @@ It has been used on an _US International Layout_.
 
 If it's not working for applications running with admin permissions, it might be the problem that AHK is not, see [this question on StackOverflow](https://stackoverflow.com/a/8457852/723769).
 
+## Erratum
+
+I hardly recommend this [adunning/Mac-Keyboard-Layouts-for-Windows](https://github.com/adunning/Mac-Keyboard-Layouts-for-Windows) instead of remapping your whole keyboard! \
+(If accents are important to you, because International Keyboard is quite annoying ...)
+
 ## Installation
 
 - Install [AutoHotkey](https://www.autohotkey.com/)
